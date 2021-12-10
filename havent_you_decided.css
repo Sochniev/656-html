@@ -1,0 +1,44 @@
+.havent-you-decided-section a {
+    background-color:#23262d;
+    font-family: 'Roboto';
+    color: rgb(132,132,132)
+    
+}
+.yellow-letters {
+    color: #cee002;
+}
+.havent-you-decided-section-content {
+    display: flex;
+    justify-content: space-around;
+}
+        @media (min-width: 992px) {
+        .havent-you-decided-section-content  {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 1fr 1fr 1fr;
+        }
+    }
+    @media (min-width: 767px) {
+        .havent-you-decided-section-content  {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 1fr 1fr;
+        }
+    }
+.havent-you-decided-section__header {
+    display: flex;
+    justify-content: space-around;
+}
+@media (min-width: 768px) {
+    .havent-you-decided-section__header {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    }
+}
+.havent_you_decided__icon {
+   color: #cee002;
+   padding-top: 90px;
+    padding-bottom: 90px;
+    font-size: 17px; 
+}
